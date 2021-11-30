@@ -16,7 +16,10 @@ namespace ConsoleAppforgithub
             Console.Write("Введіть вік: ");
             int age = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"Ім'я: {name}  Вік: {age}");
+            Console.Write("Введіть ріст: ");
+            double height = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine($"Ім'я: {name}  Вік: {age} Ріст: {height}");
         }
     }
 }
